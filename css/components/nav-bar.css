@@ -5,13 +5,40 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-
   box-sizing: border-box;
 }
 
 .nav__list {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+}
+
+.nav__link {
   color: #2e363e;
+  position: relative;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  top: -15px;
+  right: -10px;
+}
+
+.nav__notification_el {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  display: block;
+  position: absolute;
+  right: -5px;
 }
