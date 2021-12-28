@@ -2,8 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px;
-  padding-top: 40px;
+  padding: var(--horizontal-space);
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  top: 26px;
 }
 
 .screen-header__title {
@@ -13,16 +18,4 @@
 
 .screen-header__icons span {
   margin-left: 25px;
-}
-
-#friends-display-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fafafa;
-  width: 100%;
-}
-
-#friends-display-link i {
-  color: #d5d5d5;
 }
