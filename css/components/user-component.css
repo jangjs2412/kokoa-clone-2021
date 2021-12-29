@@ -9,11 +9,12 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .user-component__column:last-child span {
   margin-right: 5px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .user-component__avatar {
