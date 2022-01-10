@@ -20,13 +20,3 @@
   margin-top: 18px;
   font-size: 14px;
 }
-
-.more-suggestions {
-  margin-top: 50px;
-  border-top: var(--main-border);
-  padding-top: 30px;
-}
-
-.more-suggestions__title {
-  margin-bottom: 30px;
-}
