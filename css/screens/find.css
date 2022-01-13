@@ -75,6 +75,7 @@
 
 .open-post__photo {
   position: relative;
+  cursor: pointer;
 }
 
 .open-post__photo img {
@@ -98,4 +99,24 @@
 
 .open-post__heart-count span {
   margin-left: 4px;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    transform: scale(1.5);
+    color: tomato;
+  }
+  100% {
+    transform: none;
+    color: white;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
 }
