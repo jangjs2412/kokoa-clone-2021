@@ -9,6 +9,7 @@
   padding: 20px;
   box-sizing: border-box;
   top: 26px;
+  z-index: 2;
 }
 
 .alt-header__column {
