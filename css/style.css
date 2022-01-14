@@ -30,3 +30,11 @@ body {
   padding: 0 var(--horizontal-space);
   margin-top: 115px;
 }
+
+.main-screen--hr {
+  padding: 10px 0;
+}
+
+.main-screen--hr hr {
+  opacity: 0.5;
+}

@@ -7,6 +7,10 @@
   justify-content: space-between;
 }
 
+.settings__setting:last-child {
+  border-bottom: none;
+}
+
 .settings__setting i {
   opacity: 0.8;
   margin-right: 20px;
@@ -18,7 +22,7 @@
   opacity: 0.5;
 }
 
-.settings__setting-hr {
-  padding-bottom: 40px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+.settings-screen {
+  padding: 0 var(--horizontal-space);
+  height: 70vh;
 }
